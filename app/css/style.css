@@ -1,0 +1,255 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+nav {
+    display:flex;
+    text-decoration:none;
+    justify-content:space-between;
+    font-size:14px;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    width: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+.section-padding {
+    padding: 2% 10%;
+}
+
+#welcome {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-size:cover;
+   background-image:url("../images/background.jpeg");
+   padding-top:70px;
+   padding-bottom:140px;
+   font-weight:100;
+   color:beige;
+   margin-top:200px;
+}
+
+#welcome button {
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    border-radius: 20px;
+    padding:10px;
+    border:none;
+    font-size:10px;
+}
+
+#welcome button:hover{
+    background-color: rgb(48, 41, 41);
+    transition: 0.5s;   
+}
+
+#welcome a {
+    color:white;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight: 400;
+}
+
+#welcome h1 {
+    letter-spacing: 3px;
+}
+
+#principai {
+    display:flex;
+    justify-content:space-between;
+    text-align:center; 
+    margin:50px 0;
+}
+
+#principai h3 {
+    text-transform: uppercase;
+}
+
+
+.icon h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon p {
+    font-size: 12px;
+}
+
+.icon {
+    width:25%;
+}
+
+#prisistatymas {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center; 
+    margin:50px 0;
+    flex-direction: column;
+}
+
+#prisistatymas h3 {
+    text-transform: uppercase;
+}
+
+#prisistatymas p {
+    font-size: 12px;
+}
+
+#projektai {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    text-align:center; 
+    margin:50px 0;
+}
+
+.projektai {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+}
+
+.pvz {
+    position:relative;
+    height: 100%;
+}
+
+.pvz a span {
+    position:absolute;
+    bottom:0;
+    background-color: #555;
+    color:white;
+    font-size:12px;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    display:none;
+    padding:10px 40px;
+}
+
+.pvz a span:hover {
+    display:block;
+}
+
+.pvz img {
+    max-width: 200px;
+    border-radius:3px;
+}
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+}
+
+.container #contact {
+
+    background-color: rgb(20, 19, 19);
+    color: white;
+    border-radius: 3px;
+    padding:30px;
+    border:none;
+    font-size:10px;
+}
+
+.container #contact h3 { 
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 16px;
+    text-transform:uppercase;
+}
+
+.container #contact h4 { 
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 12px;
+}
+
+.container p input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+}
+
+.container p textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+}
+
+.container #contact button {
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 12px;
+}
+
+#socials {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.bottom-nav {
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav-section h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-section {
+    width:25%;
+}
+
+.nav-section li {
+    text-decoration:none;
+}
+
+.nav-section a {
+    text-decoration: none;
+    color:black;
+}
+
+footer {
+    flex-direction:column;
+    background-color:rgb(20, 19, 19);
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    margin:50px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding:0%;
+}
